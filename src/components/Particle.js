@@ -11,16 +11,16 @@ function Particle() {
             value: 160,
             density: {
               enable: true,
-              value_area: 1500,
+              value_area: 1000,
             },
           },
           line_linked: {
-            enable: false,
+            enable: true,
             opacity: 0.03,
           },
           move: {
             direction: "right",
-            speed: 0.05,
+            speed: 0.1,
           },
           size: {
             value: 1,
@@ -34,15 +34,21 @@ function Particle() {
           },
         },
         interactivity: {
+          // detect_on: "canvas",
           events: {
             onclick: {
               enable: true,
               mode: "push",
             },
+            onhover: {
+             enable: true,
+              mode: "repulse"
+            }
+            
           },
           modes: {
             push: {
-              particles_nb: 1,
+              particles_nb: 10,
             },
           },
         },
