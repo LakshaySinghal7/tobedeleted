@@ -9,8 +9,8 @@ function Type() {
           "Software Developer",
           "Freelancer",
           "MERN Stack Developer",
-          "PHP Developer",
-          "Trader"
+          // "PHP Developer",
+          // "Trader"
         ],
         autoStart: true,
         loop: true,
