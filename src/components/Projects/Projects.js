@@ -49,10 +49,10 @@ the time spent on manual updates by over 75%."
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Stolen Beauty"
-              description="A unique and engaging website that combines the excitement of a treasure hunt with the benefits of a psychological evaluation to deliver a truly insightful soft skills assessment. Based on MERN Stack. React.js for the frontend, Node.js, Express.js for the backend, and MongoDB for storing data and authentication."
-              ghLink="https://github.com/vatskopal09/StolenBeauty.git"
-              demoLink="https://stolen-beauty.netlify.app/"
+              title="Solario"
+              description="Explore the beauty of our solar system with Solario, a web app providing detailed information on planets and a 2D solar system simulation. Features include a Space Invader game, space news, and a contact page. Optimized for larger screens and modern browsers, preferably Chrome."
+              ghLink="https://github.com/vatskopal09/Solario.git"
+              demoLink="https://solario-app.web.app/"
               
             />
           </Col>
